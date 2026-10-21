@@ -24,6 +24,11 @@ function draw()
   fill(255, 232, 0, 100, 100)
   circle(497, 236, 50)
 
+  fill (255, 255, 255, 100)
+  circle(497, 236, 30)
+  fill (255, 232, 0, 100)
+  circle(497, 236, 30)
+
   -- swan body with yellow layered over white
   noStroke()
   fill(255, 255, 255)
@@ -38,7 +43,7 @@ function draw()
   fill(255, 232, 0, 50)
   ellipse(609, 548, 7, 30)
 
-  -- swan head
+  -- swan head + beak
   noStroke()
   fill(255, 255, 255)
   ellipse (615, 536, 15, 10)
@@ -49,6 +54,14 @@ function draw()
   triangle(622, 535, 620, 540, 634, 539)
   fill(255, 232, 0, 200)
   triangle(622, 535, 620, 540, 634, 539)
+
+  -- birds in the sky
+  stroke(0)
+  line(104, 113, 88, 101)
+  line(104,113, 118, 99)
+
+  line(136, 67, 145, 56)
+  line(136, 67, 122, 56 )
 
 
 
