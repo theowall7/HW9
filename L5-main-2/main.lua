@@ -61,12 +61,5 @@ function draw()
   line(104,113, 118, 99)
 
   line(136, 67, 145, 56)
-  line(136, 67, 122, 56 )
-
-
-
-  fill(0)
-  text("X: "..mouseX.." Y:"..mouseY, mouseX+5,mouseY+30)
-  
-
+  line(136, 67, 122, 56)
 end
