@@ -34,8 +34,9 @@ function draw()
   -- swan neck
   noStroke()
   fill(255, 255, 255)
-  ellipse(606, 940, 10, 20)
-
+  ellipse(609, 548, 7, 30)
+  fill(255, 232, 0, 50)
+  ellipse(609, 548, 7, 30)
 
 
 
