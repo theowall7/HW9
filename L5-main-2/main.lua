@@ -38,6 +38,18 @@ function draw()
   fill(255, 232, 0, 50)
   ellipse(609, 548, 7, 30)
 
+  -- swan head
+  noStroke()
+  fill(255, 255, 255)
+  ellipse (615, 536, 15, 10)
+  fill(255, 232, 0, 50)
+  ellipse (615, 536, 15, 10)
+
+  fill(255, 72, 176)
+  triangle(622, 535, 620, 540, 634, 539)
+  fill(255, 232, 0, 200)
+  triangle(622, 535, 620, 540, 634, 539)
+
 
 
   fill(0)
