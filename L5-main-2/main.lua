@@ -13,6 +13,6 @@ end
 
 function draw()
   -- draw image
-  image(img, 0, 0, 50, 50)
+  image(img, 0, 0, 800, 600)
   
 end
